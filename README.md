@@ -4,7 +4,6 @@ A Tampermonkey / Violentmonkey / Greasemonkey userscript to download music
 from [Deezer](https://www.deezer.com/) in MP3 (128k / 320k) and FLAC.
 
 > Revisited from the original *Deezer:Download* script by several contributors.
-> License: Beerware — see the header of `DeezRevived_1.2.js`.
 
 ## Features
 
