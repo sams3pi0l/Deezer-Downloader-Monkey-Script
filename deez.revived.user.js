@@ -1,18 +1,3 @@
-//---CONFIGURATION---//
-const showMp3_128        = true; // Show MP3 @128k download (default: true)
-const showMp3_320        = true; // Show MP3 @320k download (default: true)
-const showFLAC           = true; // Show FLAC download (default: true)
-const showAzLyrics       = false; // Show azLyrics checkbox (default: true)
-const showListDownloader = true; // Show bulk download option (default: true)
-const coverSize          = 600; // JPEG cover size in px (default: 600)
-const coverQuality       = 80; // JPEG cover quality from 0 to 100 (default: 80)
-
-//---DEBUG---//
-const SHOW_KEYS          = !true; // Show pressed keys (default: !true)
-const DEBUG              = !true; // Debug ON/OFF (default: !true)
-const L10nDEBUG          = !true; // Enable localization override (default: !true)
-const L10nOVERRIDE       = 'en'; // Override browser language with selected (default: 'en')
-
 // ==UserScript==
 // @name                DeezRevived
 // @description         Download music from Deezer in any chosen format. Supports HQ/HiFi only with Premium subscription.
@@ -25,7 +10,7 @@ const L10nOVERRIDE       = 'en'; // Override browser language with selected (def
 // @namespace           Script from original 'Deezer:Download', revisited by some developers and contributors
 // @icon                https://i.imgur.com/kFReGp3.jpg
 // screenshot           https://i.imgur.com/rsXJD5v.png
-// license              Beerware License https://paste.debian.net/hidden/plainh/f360edb6
+// license              Beerware License https://pastebin.com/raw/gdLA7d8v
 // @homepageURL         https://github.com/sams3pi0l/Deezer-Downloader-Monkey-Script
 // @downloadURL         https://github.com/sams3pi0l/Deezer-Downloader-Monkey-Script/raw/refs/heads/main/deez.revived.user.js
 // @updateURL           https://github.com/sams3pi0l/Deezer-Downloader-Monkey-Script/raw/refs/heads/main/deez.revived.user.js
@@ -33,7 +18,7 @@ const L10nOVERRIDE       = 'en'; // Override browser language with selected (def
 // @grant               GM_xmlhttpRequest
 // @grant               GM.xmlHttpRequest
 // @connect             api.deezer.com
-// @require             https://gist.githubusercontent.com/aleandroid/ca7b7fd58a4a05751f5608107f87a7f0/raw/PajHome.MD5.min.js
+// @require             https://update.greasyfork.org/scripts/130/10066/Portable%20MD5%20Function.js
 //  license             BSD
 //  attribution         Paul Johnston http://pajhome.org.uk/crypt/md5/
 // @require             https://cdnjs.cloudflare.com/ajax/libs/aes-js/3.1.2/index.min.js
@@ -53,6 +38,21 @@ const L10nOVERRIDE       = 'en'; // Override browser language with selected (def
 // compatible           Firefox (TamperMonkey, GreaseMonkey, ViolentMonkey)
 // compatible           Edge (TamperMonkey)
 // ==/UserScript==
+
+//---CONFIGURATION---//
+const showMp3_128        = true; // Show MP3 @128k download (default: true)
+const showMp3_320        = true; // Show MP3 @320k download (default: true)
+const showFLAC           = true; // Show FLAC download (default: true)
+const showAzLyrics       = false; // Show azLyrics checkbox (default: true)
+const showListDownloader = true; // Show bulk download option (default: true)
+const coverSize          = 600; // JPEG cover size in px (default: 600)
+const coverQuality       = 80; // JPEG cover quality from 0 to 100 (default: 80)
+
+//---DEBUG---//
+const SHOW_KEYS          = !true; // Show pressed keys (default: !true)
+const DEBUG              = !true; // Debug ON/OFF (default: !true)
+const L10nDEBUG          = !true; // Enable localization override (default: !true)
+const L10nOVERRIDE       = 'en'; // Override browser language with selected (default: 'en')
 
 const _getI18nMap = { // Default lang is 'en'
     en: {
