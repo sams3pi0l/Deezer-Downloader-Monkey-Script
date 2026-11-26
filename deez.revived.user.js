@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name                DeezRevived
 // @description         Download music from Deezer in any chosen format. Supports HQ/HiFi only with Premium subscription.
-// @version             1.2
+// @version             1.2.1
 // @author              Deki Haker, Kawashi666 and some others developers
 //  devs                Jonathan Tavares (revisions, fixes, proofreading, compatibility)
 //  devs                K-mik@Z (fixes, proofreading, style, translation, compatibility)
@@ -11,7 +11,7 @@
 // @icon                https://i.imgur.com/kFReGp3.jpg
 // screenshot           https://i.imgur.com/rsXJD5v.png
 // @license             Beerware License https://pastebin.com/raw/gdLA7d8v
-// @homepageURL         https://update.greasyfork.org/scripts/607546/DeezRevived.user.js
+// @homepageURL         https://github.com/sams3pi0l/Deezer-Downloader-Monkey-Script
 // @downloadURL         https://github.com/sams3pi0l/Deezer-Downloader-Monkey-Script/raw/refs/heads/main/deez.revived.user.js
 // @updateURL           https://github.com/sams3pi0l/Deezer-Downloader-Monkey-Script/raw/refs/heads/main/deez.revived.user.js
 // @grant               unsafeWindow
