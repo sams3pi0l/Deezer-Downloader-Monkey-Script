@@ -10,8 +10,8 @@
 // @namespace           Script from original 'Deezer:Download', revisited by some developers and contributors
 // @icon                https://i.imgur.com/kFReGp3.jpg
 // screenshot           https://i.imgur.com/rsXJD5v.png
-// license              Beerware License https://pastebin.com/raw/gdLA7d8v
-// @homepageURL         https://github.com/sams3pi0l/Deezer-Downloader-Monkey-Script
+// @license             Beerware License https://pastebin.com/raw/gdLA7d8v
+// @homepageURL         https://update.greasyfork.org/scripts/607546/DeezRevived.user.js
 // @downloadURL         https://github.com/sams3pi0l/Deezer-Downloader-Monkey-Script/raw/refs/heads/main/deez.revived.user.js
 // @updateURL           https://github.com/sams3pi0l/Deezer-Downloader-Monkey-Script/raw/refs/heads/main/deez.revived.user.js
 // @grant               unsafeWindow
@@ -19,10 +19,10 @@
 // @grant               GM.xmlHttpRequest
 // @connect             api.deezer.com
 // @require             https://update.greasyfork.org/scripts/130/10066/Portable%20MD5%20Function.js
-//  license             BSD
+// @license             BSD
 //  attribution         Paul Johnston http://pajhome.org.uk/crypt/md5/
 // @require             https://cdnjs.cloudflare.com/ajax/libs/aes-js/3.1.2/index.min.js
-//  license             MIT
+// @license             MIT
 //  attribution         ricmoo https://github.com/ricmoo/aes-js
 // @match               https://www.deezer.com/*
 // @description:de      Laden Sie Musik von Deezer im MP3 oder FLAC
